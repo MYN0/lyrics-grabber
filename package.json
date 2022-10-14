@@ -1,0 +1,32 @@
+{
+  "name": "lyrics-grabber",
+  "version": "1.0.0",
+  "description": "A simple module to fetch lyrics of a song.",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "",
+    "directory": ""
+  },
+  "keywords": [
+    "lyrics",
+    "youtube-lyrics",
+    "grab-lyrics",
+    "fetch-lyrics",
+    "genius-lyrics",
+    "lyrics",
+    "lyrics-fetch",
+    "search-lyrics",
+    "genius-lyrics-api"
+  ],
+  "author": "Ritesh",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "got": "^12.5.2",
+    "node-fetch": "^3.2.10"
+  }
+}
