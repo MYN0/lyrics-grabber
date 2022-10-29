@@ -44,6 +44,6 @@ lyrics("FireFlies");
  */
 // ★
 
-function getLyrics(query?: string): Promise<LyricsData>;
-function getTrackInformation(song?: string): Promise<informationalData>;
+declare function getLyrics(query?: string): Promise<LyricsData>;
+declare function getTrackInformation(song?: string): Promise<informationalData>;
 export default { getLyrics, getTrackInformation };
