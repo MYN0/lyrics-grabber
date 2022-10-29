@@ -1,7 +1,14 @@
 interface LyricsData {
   title?: string;
   author?: string;
-  lyrics?: string[];
+  lyrics: string[];
+}
+interface informationalData {
+  title?: string;
+  author: string;
+  featuring?: string;
+  producedBy: string;
+  releaseDate?: string;
 }
 
 /**
@@ -36,4 +43,7 @@ lyrics("FireFlies");
 @return
  */
 // ★
-export function getLyrics(query?: string): Promise<LyricsData>;
+
+function getLyrics(query?: string): Promise<LyricsData>;
+function getTrackInformation(song?: string): Promise<informationalData>;
+export default { getLyrics, getTrackInformation };
